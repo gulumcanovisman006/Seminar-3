@@ -1,4 +1,4 @@
-file_path = '/content/mbox-short.txt?utm_source=chatgpt.com' # Adjust file path if necessary
+file_path = '/content/mbox-short.txt?utm_source=chatgpt.com' 
 
 day_counts = {}
 try:
