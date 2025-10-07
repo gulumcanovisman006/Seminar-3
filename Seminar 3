@@ -1,6 +1,6 @@
 d = set()
-for line in open('/content/mbox-short.txt'):
-    if line.startswith('From '):
+for l in open('/content/mbox-short.txt'):
+    if l.startswith('From '):
         d.add(l.split()[1].split('@')[1])
 
 for x in d:
